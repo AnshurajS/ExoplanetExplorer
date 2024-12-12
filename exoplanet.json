@@ -1,0 +1,602 @@
+[
+    {
+        "name": "Proxima Centauri b",
+        "radius": 1.1,
+        "distance": 4.24,
+        "description": "Closest known exoplanet to Earth, potentially within its star's habitable zone."
+    },
+    {
+        "name": "TRAPPIST-1e",
+        "radius": 0.92,
+        "distance": 39,
+        "description": "Potentially habitable Earth-sized exoplanet in a seven-planet system."
+    },
+    {
+        "name": "Kepler-22b",
+        "radius": 2.4,
+        "distance": 600,
+        "description": "Super-Earth in the habitable zone of a Sun-like star."
+    },
+    {
+        "name": "Gliese 581g",
+        "radius": 1.5,
+        "distance": 20.3,
+        "description": "Candidate for habitability, orbiting a red dwarf star."
+    },
+    {
+        "name": "HD 209458 b (Osiris)",
+        "radius": 1.36,
+        "distance": 159,
+        "description": "First exoplanet observed transiting its star."
+    },
+    {
+        "name": "Kepler-452b",
+        "radius": 1.63,
+        "distance": 1400,
+        "description": "Nicknamed 'Earth 2.0,' it orbits a Sun-like star in the habitable zone."
+    },
+    {
+        "name": "LHS 1140 b",
+        "radius": 1.43,
+        "distance": 40,
+        "description": "Rocky super-Earth in the habitable zone of a red dwarf star."
+    },
+    {
+        "name": "55 Cancri e",
+        "radius": 2.0,
+        "distance": 41,
+        "description": "Lava world orbiting very close to its host star."
+    },
+    {
+        "name": "HR 8799 c",
+        "radius": 1.2,
+        "distance": 129,
+        "description": "Directly imaged gas giant planet."
+    },
+    {
+        "name": "Kepler-16b",
+        "radius": 0.75,
+        "distance": 200,
+        "description": "Circumbinary planet orbiting two stars."
+    },
+    {
+        "name": "Kepler-186f",
+        "radius": 1.1,
+        "distance": 492,
+        "description": "First Earth-sized exoplanet discovered in a habitable zone."
+    },
+    {
+        "name": "TOI-700 d",
+        "radius": 1.2,
+        "distance": 101.4,
+        "description": "Potentially habitable planet discovered by TESS."
+    },
+    {
+        "name": "K2-18b",
+        "radius": 2.6,
+        "distance": 124,
+        "description": "Sub-Neptune with water vapor detected in its atmosphere."
+    },
+    {
+        "name": "PSR B1257+12 c",
+        "radius": 0.2,
+        "distance": 980,
+        "description": "Pulsar planet discovered orbiting a neutron star."
+    },
+    {
+        "name": "GJ 1214 b",
+        "radius": 2.7,
+        "distance": 47,
+        "description": "Mini-Neptune with a thick atmosphere."
+    },
+    {
+        "name": "Kepler-10b",
+        "radius": 1.4,
+        "distance": 564,
+        "description": "A rocky exoplanet with an extremely short orbital period of less than a day."
+    },
+    {
+        "name": "Kepler-20e",
+        "radius": 0.87,
+        "distance": 950,
+        "description": "One of the smallest confirmed exoplanets, slightly smaller than Venus."
+    },
+    {
+        "name": "Gliese 667 Cc",
+        "radius": 1.5,
+        "distance": 23.62,
+        "description": "Located in the habitable zone of a red dwarf, it is a candidate for potential habitability."
+    },
+    {
+        "name": "WASP-18b",
+        "radius": 1.16,
+        "distance": 410,
+        "description": "A massive hot Jupiter with an extremely short orbital period."
+    },
+    {
+        "name": "Kepler-11f",
+        "radius": 2.49,
+        "distance": 2108,
+        "description": "Part of a six-planet system, it is one of the most tightly packed planetary systems discovered."
+    },
+    {
+        "name": "GJ 504 b",
+        "radius": 1.2,
+        "distance": 57,
+        "description": "A directly imaged gas giant with a striking pink hue."
+    },
+    {
+        "name": "Kepler-444f",
+        "radius": 0.64,
+        "distance": 116,
+        "description": "One of five Earth-sized planets in an ancient planetary system over 11 billion years old."
+    },
+    {
+        "name": "HAT-P-7b",
+        "radius": 1.36,
+        "distance": 1040,
+        "description": "A hot Jupiter exhibiting extreme atmospheric dynamics, including supersonic winds."
+    },
+    {
+        "name": "Kepler-438b",
+        "radius": 1.12,
+        "distance": 472,
+        "description": "An Earth-like planet located in the habitable zone of a red dwarf."
+    },
+    {
+        "name": "HD 189733 b",
+        "radius": 1.14,
+        "distance": 64.5,
+        "description": "Known for its deep blue color caused by atmospheric silicate particles."
+    },
+    {
+        "name": "Kepler-90i",
+        "radius": 1.32,
+        "distance": 2545,
+        "description": "Part of the eight-planet Kepler-90 system, it is the smallest in the system."
+    },
+    {
+        "name": "51 Pegasi b",
+        "radius": 1.27,
+        "distance": 50.1,
+        "description": "The first exoplanet discovered around a Sun-like star, nicknamed Bellerophon."
+    },
+    {
+        "name": "TOI-178c",
+        "radius": 1.71,
+        "distance": 200,
+        "description": "Part of a fascinating resonant chain of planets orbiting TOI-178."
+    },
+    {
+        "name": "Wolf 1061c",
+        "radius": 1.6,
+        "distance": 13.8,
+        "description": "Located in the habitable zone of a red dwarf, a candidate for further study."
+    },
+    {
+        "name": "Kepler-1652b",
+        "radius": 1.12,
+        "distance": 833,
+        "description": "An Earth-like planet with high potential for habitability."
+    },
+    {
+        "name": "HD 209458 b",
+        "radius": 1.39,
+        "distance": 159,
+        "description": "A well-studied exoplanet known for its evaporating atmosphere."
+    },
+    {
+        "name": "Kepler-37b",
+        "radius": 0.35,
+        "distance": 215,
+        "description": "The smallest known exoplanet, about the size of the Moon."
+    },
+    {
+        "name": "CoRoT-7b",
+        "radius": 1.58,
+        "distance": 490,
+        "description": "A rocky planet with extreme volcanic activity due to its proximity to its star."
+    },
+    {
+        "name": "Tau Ceti f",
+        "radius": 1.9,
+        "distance": 11.9,
+        "description": "A potentially habitable exoplanet orbiting a nearby star."
+    },
+    {
+        "name": "Kepler-13Ab",
+        "radius": 1.72,
+        "distance": 1730,
+        "description": "A hot Jupiter with a tilted orbit causing extreme weather variations."
+    },
+    {
+        "name": "Kepler-78b",
+        "radius": 1.2,
+        "distance": 400,
+        "description": "A lava world with a very short orbital period of 8.5 hours."
+    },
+    {
+        "name": "Kepler-90h",
+        "radius": 1.23,
+        "distance": 2545,
+        "description": "The outermost planet of the eight-planet Kepler-90 system."
+    },
+    {
+        "name": "GJ 357 d",
+        "radius": 2.0,
+        "distance": 31,
+        "description": "A super-Earth in the habitable zone of its host star."
+    },
+    {
+        "name": "LTT 1445 A b",
+        "radius": 1.35,
+        "distance": 22.5,
+        "description": "An Earth-sized planet orbiting one star in a triple-star system."
+    },
+    {
+        "name": "Kepler-51b",
+        "radius": 7.1,
+        "distance": 2617,
+        "description": "A low-density exoplanet with a 'cotton-candy' atmosphere."
+    },
+    {
+        "name": "KELT-9b",
+        "radius": 1.78,
+        "distance": 670,
+        "description": "The hottest known exoplanet, with surface temperatures exceeding 4,600 K."
+    },
+    {
+        "name": "HD 40307 g",
+        "radius": 2.2,
+        "distance": 42,
+        "description": "A super-Earth in the habitable zone of its host star."
+    },
+    {
+        "name": "Kepler-36b",
+        "radius": 1.49,
+        "distance": 1530,
+        "description": "A rocky planet in a system with a closely orbiting Neptune-like planet."
+    },
+    {
+        "name": "Kepler-421b",
+        "radius": 4.9,
+        "distance": 1000,
+        "description": "An exoplanet with an exceptionally long orbital period of 704 days."
+    },
+    {
+        "name": "HD 189733 b",
+        "radius": 1.14,
+        "distance": 64.5,
+        "description": "A hot Jupiter with a cobalt-blue color caused by atmospheric particles."
+    },
+    {
+        "name": "WASP-107b",
+        "radius": 0.94,
+        "distance": 200,
+        "description": "A super-puff planet with a density similar to cotton candy."
+    },
+    {
+        "name": "TOI-849b",
+        "radius": 3.4,
+        "distance": 730,
+        "description": "A remnant planetary core stripped of its atmosphere."
+    },
+    {
+        "name": "HD 209458 b",
+        "radius": 1.39,
+        "distance": 159,
+        "description": "One of the first exoplanets observed with an evaporating atmosphere."
+    },
+    {
+        "name": "Kepler-1649c",
+        "radius": 1.06,
+        "distance": 300,
+        "description": "An Earth-sized planet located in the habitable zone of its star."
+    },
+    {
+        "name": "OGLE-2005-BLG-390Lb",
+        "radius": 2.1,
+        "distance": 21526,
+        "description": "A cold super-Earth discovered via gravitational microlensing."
+    },
+    {
+        "name": "Kapteyn b",
+        "radius": 1.5,
+        "distance": 13,
+        "description": "An ancient exoplanet orbiting one of the oldest stars in the galaxy."
+    },
+    {
+        "name": "OGLE-2016-BLG-1195Lb",
+        "radius": 1.43,
+        "distance": 13000,
+        "description": "An Earth-mass planet detected via gravitational microlensing, orbiting a faint star."
+    },
+    {
+        "name": "Kepler-442b",
+        "radius": 1.34,
+        "distance": 1200,
+        "description": "A super-Earth in the habitable zone with a high Earth Similarity Index."
+    },
+    {
+        "name": "PSR B1620-26 b",
+        "radius": 1.62,
+        "distance": 12400,
+        "description": "Known as 'Methuselah,' this is one of the oldest exoplanets discovered, orbiting a binary system of a pulsar and a white dwarf."
+    },
+    {
+        "name": "WASP-39b",
+        "radius": 1.27,
+        "distance": 700,
+        "description": "A hot Jupiter with water vapor detected in its atmosphere."
+    },
+    {
+        "name": "Kepler-141b",
+        "radius": 1.51,
+        "distance": 640,
+        "description": "A lava world with extreme temperature differences between its day and night sides."
+    },
+    {
+        "name": "HD 80606 b",
+        "radius": 1.03,
+        "distance": 190,
+        "description": "A highly eccentric hot Jupiter with extreme seasonal temperature variations."
+    },
+    {
+        "name": "TRAPPIST-1c",
+        "radius": 1.06,
+        "distance": 39,
+        "description": "One of the seven Earth-sized planets in the TRAPPIST-1 system, orbiting very close to its star."
+    },
+    {
+        "name": "Kepler-22c",
+        "radius": 2.5,
+        "distance": 620,
+        "description": "A potentially habitable super-Earth orbiting a Sun-like star."
+    },
+    {
+        "name": "GJ 9827 d",
+        "radius": 2.0,
+        "distance": 100,
+        "description": "A hot Neptune in a system with multiple planets, each offering valuable comparative studies."
+    },
+    {
+        "name": "Kepler-1229b",
+        "radius": 1.4,
+        "distance": 870,
+        "description": "A super-Earth in the habitable zone of a red dwarf."
+    },
+    {
+        "name": "WASP-76b",
+        "radius": 1.83,
+        "distance": 640,
+        "description": "A hot Jupiter where iron is theorized to condense and rain on the night side."
+    },
+    {
+        "name": "Kepler-62f",
+        "radius": 1.41,
+        "distance": 1200,
+        "description": "A potentially habitable planet larger than Earth, located in a system with multiple super-Earths."
+    },
+    {
+        "name": "TOI-1231 b",
+        "radius": 3.65,
+        "distance": 90,
+        "description": "A Neptune-like planet with an intriguing atmospheric composition."
+    },
+    {
+        "name": "LHS 3844 b",
+        "radius": 1.3,
+        "distance": 49,
+        "description": "A rocky planet with a bare surface, likely lacking an atmosphere."
+    },
+    {
+        "name": "Kepler-413b",
+        "radius": 4.35,
+        "distance": 2300,
+        "description": "A tilted circumbinary planet with significant orbital wobble."
+    },
+    {
+        "name": "HAT-P-11b",
+        "radius": 0.44,
+        "distance": 123,
+        "description": "A Neptune-sized planet with clear skies and water vapor in its atmosphere."
+    },
+    {
+        "name": "HD 97658 b",
+        "radius": 2.34,
+        "distance": 70,
+        "description": "A hot super-Earth with a well-studied atmosphere."
+    },
+    {
+        "name": "Kepler-69c",
+        "radius": 1.7,
+        "distance": 2430,
+        "description": "A super-Earth in the habitable zone of a Sun-like star."
+    },
+    {
+        "name": "Kepler-18d",
+        "radius": 6.98,
+        "distance": 1760,
+        "description": "A gas giant in a compact planetary system with multiple transiting planets."
+    },
+    {
+        "name": "GJ 436 b",
+        "radius": 4.2,
+        "distance": 33,
+        "description": "A warm Neptune with an evaporating atmosphere."
+    },
+    {
+        "name": "Proxima Centauri c",
+        "radius": 1.5,
+        "distance": 4.24,
+        "description": "A potential super-Earth orbiting the closest star to the Sun."
+    },
+    {
+        "name": "HR 8799 b",
+        "radius": 12.0,
+        "distance": 129,
+        "description": "A directly imaged gas giant in a young star system."
+    },
+    {
+        "name": "Kepler-20b",
+        "radius": 1.91,
+        "distance": 950,
+        "description": "A rocky planet with a very short orbital period."
+    },
+    {
+        "name": "TRAPPIST-1d",
+        "radius": 0.77,
+        "distance": 39,
+        "description": "A potentially habitable exoplanet in the TRAPPIST-1 system."
+    },
+    {
+        "name": "PSO J318.5-22",
+        "radius": 12.5,
+        "distance": 80,
+        "description": "A rogue planet without a host star."
+    },
+    {
+        "name": "Kepler-16b",
+        "radius": 0.753,
+        "distance": 200,
+        "description": "A circumbinary planet orbiting two stars."
+    },
+    {
+        "name": "Kapteyn c",
+        "radius": 1.6,
+        "distance": 13,
+        "description": "An exoplanet orbiting one of the galaxy's oldest stars."
+    },
+    {
+        "name": "K2-18b",
+        "radius": 2.6,
+        "distance": 124,
+        "description": "A potentially habitable exoplanet with water vapor detected in its atmosphere."
+    },
+    {
+        "name": "GJ 1214 b",
+        "radius": 2.7,
+        "distance": 42,
+        "description": "A super-Earth with a thick atmosphere likely rich in water."
+    },
+    {
+        "name": "55 Cancri e",
+        "radius": 1.9,
+        "distance": 41,
+        "description": "A rocky planet with a day side temperature high enough to melt metal."
+    },
+    {
+        "name": "HD 40307 b",
+        "radius": 2.1,
+        "distance": 42,
+        "description": "A super-Earth in a multi-planet system."
+    },
+    {
+        "name": "WASP-121b",
+        "radius": 1.8,
+        "distance": 850,
+        "description": "A hot Jupiter with water detected in its stratosphere."
+    },
+    {
+        "name": "Kepler-186e",
+        "radius": 1.27,
+        "distance": 492,
+        "description": "A planet in the habitable zone of a red dwarf star."
+    },
+    {
+        "name": "HD 149026 b",
+        "radius": 0.7,
+        "distance": 256,
+        "description": "A small hot Jupiter with a dense core."
+    },
+    {
+        "name": "OGLE-2013-BLG-0341LBb",
+        "radius": 1.1,
+        "distance": 3000,
+        "description": "A cold super-Earth in a binary star system."
+    },
+    {
+        "name": "Kepler-11b",
+        "radius": 1.8,
+        "distance": 2000,
+        "description": "The innermost of six planets in a compact system."
+    },
+    {
+        "name": "TOI-700 d",
+        "radius": 1.2,
+        "distance": 100,
+        "description": "An Earth-sized planet in the habitable zone of a nearby star."
+    },
+    {
+        "name": "WASP-12b",
+        "radius": 1.79,
+        "distance": 600,
+        "description": "A hot Jupiter being tidally disrupted by its star."
+    },
+    {
+        "name": "Kepler-22b",
+        "radius": 2.4,
+        "distance": 600,
+        "description": "A super-Earth located within the habitable zone of its host star."
+    },
+    {
+        "name": "LHS 475 b",
+        "radius": 0.99,
+        "distance": 41,
+        "description": "An Earth-sized planet with promising conditions for habitability."
+    },
+    {
+        "name": "GJ 1132 b",
+        "radius": 1.2,
+        "distance": 39,
+        "description": "A rocky exoplanet with evidence of atmospheric changes."
+    },
+    {
+        "name": "HD 219134 b",
+        "radius": 1.6,
+        "distance": 21,
+        "description": "A rocky planet with a well-studied composition."
+    },
+    {
+        "name": "Kepler-19b",
+        "radius": 2.2,
+        "distance": 650,
+        "description": "A Neptune-like planet in a system showing gravitational perturbations."
+    },
+    {
+        "name": "HD 114762 b",
+        "radius": 11.0,
+        "distance": 126,
+        "description": "A massive exoplanet initially classified as a brown dwarf."
+    },
+    {
+        "name": "Beta Pictoris b",
+        "radius": 12.3,
+        "distance": 63,
+        "description": "A young gas giant planet directly imaged orbiting Beta Pictoris."
+    },
+    {
+        "name": "WASP-103b",
+        "radius": 1.53,
+        "distance": 470,
+        "description": "A hot Jupiter so close to its star that it may be tidally stretched."
+    },
+    {
+        "name": "GJ 806b",
+        "radius": 1.33,
+        "distance": 12.04,
+        "description": "GJ 806b is a close-orbiting exoplanet around the red dwarf GJ 806. It has a short orbital period of about 0.93 days and a surface temperature of around 940 K. It is 1.33 times the radius of Earth and has a mass of 1.90 Earth masses. The planet is detected via radial velocity and transit methods."
+    },
+    {
+        "name": "Barnard's Star b",
+        "radius": 1.2,
+        "distance": 6,
+        "description": "A super-Earth orbiting Barnard's Star, the second closest stellar system to the Sun."
+    },
+    {
+        "name": "Wolf 1061c",
+        "radius": 1.6,
+        "distance": 14,
+        "description": "A potentially habitable super-Earth located within the habitable zone of its red dwarf star."
+    }
+]

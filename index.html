@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exoplanet Explorer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1><i class="fas fa-earth-asia"></i>  Exoplanet Explorer</h1>
+            <div class="search-bar">
+                <input type="text" id="search" placeholder="Search by Planet Name" list="planet-list" onclick="showDropdown()">
+                <datalist id="planet-list"></datalist>
+                <button onclick="searchPlanet()">Search</button>
+            </div>
+        </header>
+
+        <section class="filters">
+            <h2><i class="fas fa-filter"></i>Filters</h2>
+            <div class="filter">
+                <label for="distance"><i class="fas fa-circle-info"></i> Distance (light-years): </label>
+                <div class="slider-container">
+                    <button class="slider-btn" onclick="adjustSliderValue('distance', -10)">-</button>
+                    <span id="distance-value" class="slider-value">50</span>
+                    <input type="range" id="distance" min="0" max="100" step="5" value="50" oninput="updateSliderValue('distance')">
+                    <button class="slider-btn" onclick="adjustSliderValue('distance', +10)">+</button>
+                </div>
+            </div>
+            <div class="filter">
+                <label for="radius"><i class="fas fa-ruler"></i> Planet Size (Earth Radii): </label>
+                <div class="slider-container">
+                    <button class="slider-btn" onclick="adjustSliderValue('radius', -0.3)">-</button>
+                    <span id="radius-value" class="slider-value">5</span>
+                    <input type="range" id="radius" min="0" max="15" step="0.3" value="5" oninput="updateSliderValue('radius')">
+                    <button class="slider-btn" onclick="adjustSliderValue('radius', +0.3)">+</button>
+                </div>
+            </div>
+            <button onclick="applyFilters()">Apply Filters</button>
+        </section>
+
+        <section class="results">
+            <h2><i class="fas fa-user-astronaut"></i>Results</h2>
+            <div id="results-container">
+                <p>No results found</p>
+            </div>
+        </section>
+
+        <footer>
+            <p><i class="fas fa-rocket"></i> Created by Anshuraj Sedai. Data from Local JSON. <i class="fas fa-rocket"></i></p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

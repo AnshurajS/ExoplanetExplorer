@@ -1,0 +1,137 @@
+body {
+    background: url(milkyway.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e2a38;
+    color: #fff;
+}
+
+.app-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    backdrop-filter: blur(10px);
+}
+
+header, footer {
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header h1{
+    font-size: 2em;
+    margin: 0;
+}
+
+.search-bar {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 4px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.filters {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #2b3e50;
+    border-radius: 8px;
+}
+
+.filter {
+    margin: 10px 0;
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.slider-value {
+    width: 40px; 
+    text-align: center; 
+    color: #ccc;
+    font-size: 0.9em;
+}
+.slider-btn {
+    width: 30px;
+    height: 30px;
+    background-color: #2d0ba8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-btn:hover {
+    background-color: #555;
+}
+
+.slider-numbers {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #ccc;
+}
+
+.results {
+    margin: 20px 0;
+}
+
+.results div {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #2b3e50;
+    border-radius: 8px;
+}
+
+.planet-thumbnail{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  #planet-list > div {
+    background: #1d3557;
+    border-radius: 5px;
+    padding: 1em;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header { flex-direction: column; }
+    #planet-list { flex-direction: column; }
+  }
+  
