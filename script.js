@@ -10,7 +10,7 @@ function loadPlanetData() {
             populateDropdown(); 
         })
         .catch(error => {
-            console.error('Error loading planet data:', error); 
+            console.error('Error loading planet data.:', error); 
         });
 }
 
