@@ -3,8 +3,6 @@ body {
     background-size: cover;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
-    padding: 0;
-    background-color: #1e2a38;
     color: #fff;
 }
 
@@ -12,19 +10,27 @@ body {
     padding: 20px;
     max-width: 800px;
     margin: auto;
-    backdrop-filter: blur(10px);
 }
 
-header, footer {
+header {
     text-align: center;
     padding: 15px;
     border-radius: 10px;
     margin-bottom: 20px;
+    font-family: 'Lucida Grande';
 }
 
-header h1{
-    font-size: 2em;
+header h1 {
+    font-size: 3em;
     margin: 0;
+    backdrop-filter: blur(3px);
+}
+
+h2{
+    font-size: 2em;
+    backdrop-filter: blur(3px);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
 }
 
 .search-bar {
@@ -50,6 +56,10 @@ header h1{
     cursor: pointer;
 }
 
+.search-bar button:hover{
+    background-color: #425672;
+}
+
 .filters {
     margin: 20px 0;
     padding: 10px;
@@ -58,7 +68,7 @@ header h1{
 }
 
 .filter {
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 .slider-container {
@@ -71,8 +81,9 @@ header h1{
     width: 40px; 
     text-align: center; 
     color: #ccc;
-    font-size: 0.9em;
+    font-size: 1em;
 }
+
 .slider-btn {
     width: 30px;
     height: 30px;
@@ -110,6 +121,18 @@ header h1{
     border-radius: 8px;
 }
 
+.results div div:hover {
+    transform: scale(1.05);
+}
+
+.results div div:nth-child(odd){
+    background-color: rgb(38, 85, 85);
+}
+
+.results div div:nth-child(even){
+    background-color: rgba(25, 30, 95, 0.637);
+}
+
 .planet-thumbnail{
     width: 100px;
     height: 100px;
@@ -117,21 +140,65 @@ header h1{
     margin-bottom: 10px;
 }
 
-/* Animation */
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-  }
-  #planet-list > div {
-    background: #1d3557;
-    border-radius: 5px;
+footer {
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    backdrop-filter: blur(2px);
+}
+
+/* Animations */
+@keyframes shuffleIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateX(10%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Apply animations to the result display */
+#results-container > div {
+    border-radius: 10px;
     padding: 1em;
-    animation: fadeIn 1s ease-in-out;
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    header { flex-direction: column; }
-    #planet-list { flex-direction: column; }
-  }
-  
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1.5s ease-in-out, shuffleIn 1.5s ease-out;
+    margin-bottom: 1em;
+    border-bottom: 2px solid;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search-bar {
+        width: 90%;
+        margin-bottom: 1em;
+    }
+
+    .filters {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .results {
+        padding: 1em;
+        text-align: center;
+    }
+
+    #results-container > div {
+        padding: 0.8em;
+        font-size: 0.9em;
+    }
+}
