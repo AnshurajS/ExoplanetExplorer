@@ -31,7 +31,19 @@ function populateDropdown() {
 function showDropdown() {
     const searchInput = document.getElementById("search");
     searchInput.value = '';
-    searchInput.focus();  
+}
+
+function displayResults(results) {
+    resultsContainer.innerHTML = `
+        <div class="fade-in">
+            <h3>${results.name}</h3>
+            <p><strong>Radius:</strong> ${results.radius} km</p>
+            <p><strong>Distance:</strong> ${results.distance} light-years</p>
+        </div>
+        <div>
+            <p><strong>Description:</strong> ${results.description}</p>
+        </div>
+    `;
 }
 
 // Display search results
@@ -40,16 +52,7 @@ function searchPlanet() {
     const result = planets.find(planet => planet.name.toLowerCase() === query);
 
     if (result) {
-        resultsContainer.innerHTML = `
-            <div>
-                <h3>${result.name}</h3>
-                <p><strong>Radius:</strong> ${result.radius} km</p>
-                <p><strong>Distance:</strong> ${result.distance} light-years</p>
-            </div>
-            <div>
-                <p><strong>Description:</strong> ${result.description}</p>
-            </div>
-        `;
+        displayResults(result);
     } else {
         resultsContainer.innerHTML = "<p>No results found</p>";
     }
