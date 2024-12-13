@@ -6,7 +6,7 @@
     <title>Exoplanet Explorer</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-
+    <link rel="icon" type="image/png" href="favicon.ico">
 </head>
 <body>
     <div class="app-container">
@@ -14,15 +14,16 @@
             <h1><i class="fas fa-earth-asia"></i>  Exoplanet Explorer</h1>
             <div class="search-bar">
                 <input type="text" id="search" placeholder="Search by Planet Name" list="planet-list" onclick="showDropdown()">
-                <datalist id="planet-list"></datalist>
+                <datalist id="planet-list">
+                </datalist>
                 <button onclick="searchPlanet()">Search</button>
             </div>
         </header>
 
         <section class="filters">
-            <h2><i class="fas fa-filter"></i>Filters</h2>
+            <h2><i class="fa-sharp fa-solid fa-hourglass-half"></i> Filters</h2>
             <div class="filter">
-                <label for="distance"><i class="fas fa-circle-info"></i> Distance (light-years): </label>
+                <label for="distance"><i class="fa-regular fa-compass"></i> Distance (light-years): </label>
                 <div class="slider-container">
                     <button class="slider-btn" onclick="adjustSliderValue('distance', -10)">-</button>
                     <span id="distance-value" class="slider-value">50</span>
@@ -31,7 +32,7 @@
                 </div>
             </div>
             <div class="filter">
-                <label for="radius"><i class="fas fa-ruler"></i> Planet Size (Earth Radii): </label>
+                <label for="radius"><i class="fa-solid fa-maximize"></i> Planet Size (Earth Radii): </label>
                 <div class="slider-container">
                     <button class="slider-btn" onclick="adjustSliderValue('radius', -0.3)">-</button>
                     <span id="radius-value" class="slider-value">5</span>
@@ -43,7 +44,7 @@
         </section>
 
         <section class="results">
-            <h2><i class="fas fa-user-astronaut"></i>Results</h2>
+            <h2><i class="fas fa-user-astronaut"></i> Results</h2>
             <div id="results-container">
                 <p>No results found</p>
             </div>
